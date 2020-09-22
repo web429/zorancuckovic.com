@@ -437,10 +437,14 @@ ul#nav li.current a { color: #F06000; }
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   height: 142px;
+   display: flex;
+   align-items: center;
 }
 .portfolio-item .item-wrap a {
-   display: block;
+   display: flex;
+   align-items: center;
    cursor: pointer;
 }
 
